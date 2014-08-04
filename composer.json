@@ -3,6 +3,7 @@
     "description": "A PSR-3 compliant log manager",
     "minimum-stability": "stable",
     "version": "0.1.0",
+    "license": "LGPL-3.0+",
     "authors": [
         {
             "name": "Grégory PLANCHAT",
