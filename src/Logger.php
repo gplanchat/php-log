@@ -47,11 +47,8 @@ class Logger
     use FilterAwareTrait;
     use WriterAwareTrait;
 
-    private $writers = [];
-
     public function __construct(WriterInterface $writer = null)
     {
-        $this->writers = new PriorityQueue();
         $this->filters = new PriorityQueue();
 
         if ($writer !== null) {
