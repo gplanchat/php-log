@@ -52,7 +52,7 @@ trait WriterAwareTrait
     }
 
     /**
-     * @return PriorityQueue
+     * @return PriorityQueue|WriterInterface[]
      */
     public function getWriterQueue()
     {

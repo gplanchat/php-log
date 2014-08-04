@@ -74,7 +74,6 @@ class Logger
         }
 
         foreach ($this->getWriterQueue() as $writer) {
-            /** @param WriterInterface $writer */
             $writer->write($level, $message, $context);
         }
     }
